@@ -17,6 +17,21 @@
  * or modify functionality from its dependencies.
  */
 
-function localIntercept() {}
+function localIntercept(targets) {
+    const buildpackTargets = targets.of('@magento/pwa-buildpack');
+
+    buildpackTargets.envVarDefinitions.tap(defs => {
+        defs.sections.push({
+            name: 'Weather API Key',
+            variables: [
+                {
+                    name: 'WEATHER_API_KEY',
+                    type: 'str',
+                    desc: 'Weather API Key'
+                }
+            ]
+        });
+    });
+}
 
 module.exports = localIntercept;

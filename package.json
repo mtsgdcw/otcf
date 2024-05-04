@@ -50,7 +50,6 @@
     "@magento/peregrine": "~14.2.1",
     "@magento/pwa-theme-venia": "~2.4.0",
     "@magento/upward-security-headers": "~1.0.14",
-    "@magento/venia-sample-backends": "~0.0.1",
     "@magento/venia-ui": "~11.3.0",
     "@pmmmwh/react-refresh-webpack-plugin": "0.4.1",
     "@storybook/react": "~6.3.7",

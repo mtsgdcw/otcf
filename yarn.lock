@@ -2250,11 +2250,6 @@
   resolved "https://registry.yarnpkg.com/@magento/upward-security-headers/-/upward-security-headers-1.0.15.tgz#b7cd26c5e505f871ab244ca2005752b7f6f4e98d"
   integrity sha512-KMWkvlwdstiHGpDjx8M1ZD6UukRng+ObamqT1R6ntOU/rbTnYZRZy2emV+euUS2LGTgXNmccElWxUiRGaesxKw==
 
-"@magento/venia-sample-backends@~0.0.1":
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/@magento/venia-sample-backends/-/venia-sample-backends-0.0.10.tgz#33763a2f183c69fe9457a471c6a8002b40a8453c"
-  integrity sha512-ooEIdidmZ4+XzPMPUO89ko8TnOaumCm04BBYmd7MCEImkMnT3kud+3zo9+w2hvSgH7Gu6aV3fnEZKvBcDjiRUA==
-
 "@magento/venia-ui@~11.3.0":
   version "11.3.0"
   resolved "https://registry.yarnpkg.com/@magento/venia-ui/-/venia-ui-11.3.0.tgz#b2fae46fe802710fb3cc7a36d4e0aac0c76c6102"

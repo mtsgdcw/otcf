@@ -1,0 +1,30 @@
+.root {
+    composes: text-xs from global;
+}
+
+.error {
+    composes: text-red-500 from global;
+}
+
+.indicator {
+    composes: content-center from global;
+    composes: items-center from global;
+    composes: justify-center from global;
+    composes: justify-items-center from global;
+    height: calc(100% - 6rem);
+    composes: mx-0 from global;
+    composes: w-full from global;
+    composes: scale-50 from global;
+}
+
+.weatherIcon {
+    composes: w-9 from global;
+    composes: h-9 from global;
+    composes: object-contain from global;
+}
+
+.weatherDetails {
+    composes: flex from global;
+    composes: items-center from global;
+    composes: pt-1 from global;
+}

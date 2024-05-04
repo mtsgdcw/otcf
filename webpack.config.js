@@ -55,6 +55,9 @@ module.exports = async env => {
                 esModules: true
             }
         },
+        alias: {
+            '@talons': 'src/overrides/peregrine/talons'
+        },
         env
     });
 
