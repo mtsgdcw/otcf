@@ -43,12 +43,14 @@
     "@babel/plugin-transform-runtime": "~7.4.4",
     "@babel/preset-env": "~7.16.0",
     "@babel/runtime": "~7.15.3",
+    "@fooman/venia-ui-override-resolver": "file:./src/extensions/venia-ui-override-resolver",
     "@magento/babel-preset-peregrine": "~1.2.3",
     "@magento/eslint-config": "~1.5.0",
     "@magento/pagebuilder": "~9.2.1",
     "@magento/peregrine": "~14.2.1",
     "@magento/pwa-theme-venia": "~2.4.0",
     "@magento/upward-security-headers": "~1.0.14",
+    "@magento/venia-sample-backends": "~0.0.1",
     "@magento/venia-ui": "~11.3.0",
     "@pmmmwh/react-refresh-webpack-plugin": "0.4.1",
     "@storybook/react": "~6.3.7",
@@ -122,8 +124,7 @@
     "workbox-precaching": "~6.2.4",
     "workbox-routing": "~6.2.4",
     "workbox-strategies": "~6.2.4",
-    "workbox-webpack-plugin": "~6.2.4",
-    "@magento/venia-sample-backends": "~0.0.1"
+    "workbox-webpack-plugin": "~6.2.4"
   },
   "optionalDependencies": {
     "sharp": "~0.29.3"
