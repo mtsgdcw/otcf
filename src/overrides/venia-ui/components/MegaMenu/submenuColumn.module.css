@@ -1,0 +1,26 @@
+.submenuColumn {
+    composes: max-w-[235px] from global;
+    composes: py-5 from global;
+    composes: px-16 from global;
+}
+
+.link {
+    composes: whitespace-nowrap from global;
+    composes: focus_underline from global;
+    composes: hover_underline from global;
+    composes: block from global;
+    composes: mb-1 from global;
+}
+
+.heading {
+    composes: block from global;
+    composes: mb-3 from global;
+}
+
+.linkActive {
+    composes: underline from global;
+}
+
+.submenuChildItem {
+    composes: ml-2 from global;
+}
